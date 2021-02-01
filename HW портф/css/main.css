@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+}
+
+div,
+p,
+input,
+button,
+form {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+.container {
+  display: table;
+  margin: 0px auto;
+  width: 960px;
+}
+#first {
+  background: url(../img/first-background.jpg) no-repeat center top/ cover;
+  height: 700px;
+}
+.navigation {
+  padding-top: 20px;
+  height: 40px;
+}
+.navigation-item {
+  display: block;
+  float: left;
+  color: #ece5e5;
+  margin-right: 40px;
+}
+.navigation-item a {
+  text-decoration: none;
+  color: #ece5e5;
+}
+.navigation-item:nth-child(1) {
+  margin-right: 160px;
+}
+.navigation-item:nth-child(5) {
+  float: right;
+  margin-right: 0px;
+}
+.header {
+  text-align: center;
+  color: #ece5e5;
+  padding-top: 260px;
+}
+.header-item {
+  margin-bottom: 15px;
+  font-size: 38px;
+  font-weight: bold;
+}
+.header-text {
+  font-size: 25px;
+  font-weight: regular;
+  margin: 0px;
+}
+.main-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+#information {
+  padding-top: 100px;
+}
+.block {
+  width: 380px;
+  float: left;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+.romb-item {
+  float: left;
+  display: block;
+  background: url(../img/romb.png) no-repeat center top/ cover;
+  width: 90px;
+  height: 90px;
+}
+.romb-digit {
+  text-align: center;
+}
+.romb-item p {
+  text-align: center;
+  padding-top: 32px;
+}
+.block-title {
+  color: #808080;
+}
+.contakts-item {
+  display: block;
+  width: 220px;
+  float: left;
+}
+.contakts-item a {
+  text-decoration: none;
+  margin-bottom: 5px;
+  color: black;
+}
+.icon {
+  width: 50px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  float: left;
+}
+.getcall {
+  line-height: 50px;
+  padding-left: 9px;
+}
+
+.skill-item {
+  display: block;
+  float: left;
+  margin-right: 110px;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  background: url(../img/circle.jpg) no-repeat center top/cover;
+  margin-top: 40px;
+}
+.skill-item p {
+  padding-top: 20px;
+}
+.skill-text {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 50px;
+}
+#project {
+  padding-top: 140px;
+}
+.project-item {
+  float: left;
+  margin-left: 10px;
+}

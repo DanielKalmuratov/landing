@@ -1,0 +1,81 @@
+@media screen and (max-width:700px) {
+	.container {
+		width: 88%;
+	}
+	.navigation-item:nth-child(2),
+	.navigation-item:nth-child(3),
+	.navigation-item:nth-child(4) {
+		display: none;
+	}
+	.navigation-item:nth-child(5) {
+		float: left;	
+	}
+	.block {
+		float: none;
+		margin: 0px;
+		width: 88%;
+	}
+	.romb-item {
+		margin-bottom: 50px;
+		float: none;
+	}
+	#skill {
+		padding-top: 40px;
+		
+	}
+	.skill-item {
+		margin-top: 60px;
+	}
+}
+@media screen and (max-width:940px) {
+	.container {
+		width: 88%;
+	}
+	.navigation-item:nth-child(1){
+		margin: 2%;	
+	}
+	.block{
+		width: 88%;
+		float: left;	
+	}
+	.romb-item {
+		margin-left: 5%;
+	}
+	.skill-item{
+		margin-top: 60px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
